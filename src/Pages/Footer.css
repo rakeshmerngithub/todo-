@@ -1,0 +1,23 @@
+
+
+
+.footer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    font-size: 1rem;
+    border-top: 5px solid rgb(251, 255, 33);
+    background-color: rgb(42, 42, 42);
+    color: whitesmoke
+}
+
+@media screen and (max-width: 850px) {
+    .footer{
+        position: static;
+    }
+    
+}
